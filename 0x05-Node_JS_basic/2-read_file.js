@@ -9,8 +9,8 @@ function countStudents(path) {
       console.log('Number of students: 0');
       return;
     }
-
-    const totalStudents = lines.length;
+    const students = lines.slice(1)
+    const totalStudents = students.length;
     console.log(`Number of students: ${totalStudents}`);
 
     const fields = {};
