@@ -8,7 +8,7 @@ const readline = require('readline').createInterface({
   output: process.stdout,
 });
 
-console.log('Welcome to Holberton School, what is your name?\n');
+console.log('Welcome to Holberton School, what is your name?');
 readline.question('', (name) => {
   if (name != null) {
     process.stdout.write(`Your name is: ${name}\n`);
