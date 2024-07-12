@@ -6,14 +6,15 @@
   "scripts": {
     "lint": "eslint",
     "check-lint": "lint [0-9]*.js",
-    "test": "chai"
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-jest": "^27.9.0",
-    "mocha": "^10.4.0"
+    "mocha": "^10.4.0",
+    "sinon": "^18.0.0"
   },
   "dependencies": {
     "assert": "^2.1.0",
